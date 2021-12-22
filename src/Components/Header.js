@@ -4,7 +4,6 @@ import punkLogo from '../assets/header/logo.png';
 import searchIcon from '../assets/header/search.png';
 import themeSwitchIcon from '../assets/header/theme-switch.png'
 import { useWeb3React } from '@web3-react/core';
-import { InjectedConnector } from '@web3-react/injected-connector';
 import { injected } from './Wallet/connectors'
 
 

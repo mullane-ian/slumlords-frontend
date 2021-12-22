@@ -5,12 +5,11 @@ import twitterLogo from '../assets/owner/twitter.png';
 import moreIcon from '../assets/owner/more.png';
 import discordIcon from '../assets/owner/discord.png';
 import check from '../assets/owner/check.png'
-import { Modal } from 'react-responsive-modal'
 
 const Main = ({ selectedPunk, punkListData }) => {
     const [activePunk, setActivePunk] = useState(punkListData[1]);
     useEffect(() => {
-      console.log(activePunk)
+     
         setActivePunk(punkListData[selectedPunk])
     }, [punkListData, selectedPunk])
 
