@@ -14,7 +14,7 @@ function App() {
 
     const getMyNfts = async ()=>{
 
-     const openseaData = await axios('https://nft-backend-app.herokuapp.com/',{
+     const openseaData = await axios('https://slumlords-backend.herokuapp.com/',{
 
      headers: {
       'Access-Control-Allow-Origin': '*'
