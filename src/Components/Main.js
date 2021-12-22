@@ -3,13 +3,19 @@ import './Main.css'
 import instagramLogo from '../assets/owner/instagram.png';
 import twitterLogo from '../assets/owner/twitter.png';
 import moreIcon from '../assets/owner/more.png';
+import discordIcon from '../assets/owner/discord.png';
 import check from '../assets/owner/check.png'
+import { Modal } from 'react-responsive-modal'
 
 const Main = ({ selectedPunk, punkListData }) => {
     const [activePunk, setActivePunk] = useState(punkListData[1]);
     useEffect(() => {
+      console.log(activePunk)
         setActivePunk(punkListData[selectedPunk])
     }, [punkListData, selectedPunk])
+
+
+ 
     return (
         <div className="main">
           <div className="mainContent">
@@ -35,14 +41,17 @@ const Main = ({ selectedPunk, punkListData }) => {
                   <div className="ownerNameAndHandle">
                     <div>{activePunk.owner.address}</div>
                     <div className="ownerHandle">
-                      @ChocosCoding  <img src={check} height="13px" alt=''/>
+                      @slumlordsnft  <img src={check} height="13px" alt=''/>
                     </div>
                   </div>
                   <div className="ownerLink">
-                    <img src={instagramLogo} alt="" />
+                    <img src={instagramLogo} alt="" onClick={()=> window.open("https://instagram.com/slumlordsnft", "_blank")}/>
                   </div>
                   <div className="ownerLink">
-                    <img src={twitterLogo} alt="" />
+                    <img src={twitterLogo} alt="" onClick={()=> window.open("https://twitter.com/slumlordsnft", "_blank")}/>
+                  </div>
+                  <div className="ownerLink discord">
+                    <img src={discordIcon} alt="" onClick={()=> window.open("https://discord.gg/RB777vA3", "_blank")}/>
                   </div>
                   <div className="ownerLink">
                     <img src={moreIcon} alt="" />

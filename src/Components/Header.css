@@ -11,6 +11,10 @@
 .punkLogo{
     width: 200px;
 }
+
+.punkLogo:hover{
+    cursor: crosshair;
+}
 .searchBar{
     background-color:  #1c1c1e;
     height: 50px;
@@ -52,10 +56,11 @@
     margin: 10px;
 }
 .themeSwitchContainer{
+   
     display: flex;
     border-radius: 50px;
     padding: 15px;
-    background-color: #1c1c1e;
+    background-color: #494d48;
     justify-content: center;
     align-items: center;
     object-fit: contain;
@@ -64,10 +69,14 @@
     height: 23px;
 }
 .loginButton{
-    background: linear-gradient(to right, #59f9b7, #66feea);
-    padding: 15px 40px;
+    background: linear-gradient(to right, #199437, #9da71c);
+    padding: 15px 20px;
     border-radius: 50px;
-    color: #000;
+    color: #fff;
+}
+
+.loginButton:hover {
+    cursor: crosshair ;
 }
 
 
