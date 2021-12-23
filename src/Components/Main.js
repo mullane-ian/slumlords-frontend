@@ -50,7 +50,7 @@ const Main = ({ selectedPunk, punkListData }) => {
                     <img src={twitterLogo} alt="" onClick={()=> window.open("https://twitter.com/slumlordsnft", "_blank")}/>
                   </div>
                   <div className="ownerLink discord">
-                    <img src={discordIcon} alt="" onClick={()=> window.open("https://discord.gg/RB777vA3", "_blank")}/>
+                    <img src={discordIcon} alt="" onClick={()=> window.open("https://discord.gg/KedbrupzRE", "_blank")}/>
                   </div>
                   <div className="ownerLink">
                     <img src={moreIcon} alt="" />

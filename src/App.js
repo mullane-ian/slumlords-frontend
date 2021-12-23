@@ -7,6 +7,8 @@ import Main from './Components/Main';
 import Web3 from 'web3';
 import { Web3ReactProvider } from '@web3-react/core';
 
+import { Timeline } from './Components/Timeline/Timeline.js'
+
 
 function getLibrary(provider){
   return new Web3(provider)
@@ -47,6 +49,7 @@ function App() {
               )
             }
           </div>
+          <Timeline />
       </Web3ReactProvider>
     </>
 

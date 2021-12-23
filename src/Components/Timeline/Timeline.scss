@@ -1,0 +1,24 @@
+.timeline-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 40px 0;
+  }
+  
+  //add middle line from timeline
+  .timeline-container::after{
+    background-color: 	#DAA520;
+    content: '';
+    left: calc(50% - 2px);
+    position: absolute;
+    width: 4px;
+    height: 100%;
+  }
+  
+  .roadmap-title{
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 900;
+    
+  }

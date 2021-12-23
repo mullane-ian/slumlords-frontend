@@ -35,7 +35,9 @@ const Header = () => {
             <div className="headerItems">
                 <p>Drops</p>
                 <p>Marketplace</p>
-                <p>Create</p>
+                <p>About</p>
+                <p>Contact</p>
+
             </div>
 
             <div className="headerActions">
