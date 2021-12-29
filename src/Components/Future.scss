@@ -1,0 +1,16 @@
+
+.future-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+
+.future-desc {
+    width: 50vw;
+    line-height: 3em;
+ 
+}

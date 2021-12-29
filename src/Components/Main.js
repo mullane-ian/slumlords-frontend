@@ -16,7 +16,7 @@ const Main = ({ selectedPunk, punkListData }) => {
 
  
     return (
-        <div className="main">
+        <div className="main" id="home">
           <div className="mainContent">
             <div className="heroHighlight">
               <div className="heroContainer">

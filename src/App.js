@@ -8,6 +8,11 @@ import Web3 from 'web3';
 import { Web3ReactProvider } from '@web3-react/core';
 
 import { Timeline } from './Components/Timeline/Timeline.js'
+import { Team } from './Components/Team'
+import { About } from './Components/About'
+import { Philanthropy } from './Components/Philanthropy'
+import { Future } from './Components/Future'
+import { Merch } from './Components/Merch'
 
 
 function getLibrary(provider){
@@ -35,6 +40,9 @@ function App() {
     return getMyNfts()
   }, [])
 
+
+
+
   return (
     <>
       <Web3ReactProvider getLibrary={getLibrary}>
@@ -49,7 +57,13 @@ function App() {
               )
             }
           </div>
+          <About />
           <Timeline />
+          <Team />
+          <Philanthropy />
+          <Future /> 
+          <Merch /> 
+
       </Web3ReactProvider>
     </>
 
