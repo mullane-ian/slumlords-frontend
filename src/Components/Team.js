@@ -4,7 +4,7 @@ import TeamCard from "./TeamCard";
 import "./team.scss";
 import travis from '../assets/team/travis.jpg'
 import dumper from '../assets/team/dump.png'
-import ian from '../assets/team/ian.jpg'
+
 console.log(travis)
 
 export const Team=()=> {
@@ -38,9 +38,9 @@ export const Team=()=> {
           description="Eveniet quaerat aspernatur illo natus modi vitae nam commodi obcaecati nostrum! Molestias officiis adipisci aliquid"
         />
                 <TeamCard
-          image={ian}
+          image={dumper}
 
-          name="Ian"
+          name="Null"
           work="CTO"
           description="Eveniet quaerat aspernatur illo natus modi vitae nam commodi obcaecati nostrum! Molestias officiis adipisci aliquid"
         />
